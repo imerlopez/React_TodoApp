@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+a{
+  color:#333;
+  text-decoration: none;
+}
+.container{
+  padding: 0 1rem;
+}
+
+.btn{
+  display: inline-block;
+  border:none;
+  background:#0abb0a;
+  color:#fff;
+  padding:7px 20px;
+  cursor: pointer;
+}
+.btn:hover{
+   background: #0af50a;
+}
+
+.btn-1{
+  background: #ca0a0a;
+  color: #fff ;
+  border: none;
+  margin-top: -17px;
+  padding: 5px 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  float: right;
+}
+.btn-1:hover{
+  background: #ff0000;
+}
+
+.card{
+  background:#f4f4f4;
+  padding: 10px;
+  borderBottom:1px rgb(12, 169, 241) dotted;
+  textDecoration: this.props.todo.completed ?; 
+  line-through : none;
+}
