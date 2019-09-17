@@ -10,7 +10,7 @@ class App extends Component {
     todos:[
       {
         id: uuid.v4(),
-      title:'Debug Code',
+      title:'Deploy Code',
       completed: false
       },
       {
@@ -20,7 +20,7 @@ class App extends Component {
       },
       {
         id: uuid.v4(),
-      title:'Deploy Code',
+      title:'Debug Code',
       completed: false
       }
     ]
