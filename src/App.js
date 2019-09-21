@@ -15,7 +15,11 @@ class App extends Component {
       },
       {
         id: uuid.v4(),
+<<<<<<< HEAD
+      title:' Login Page',
+=======
       title:' Login Page Auth',
+>>>>>>> 1e55d4fa67f4302a6903a190af7105edc9512f26
       completed: false
       },
       {
